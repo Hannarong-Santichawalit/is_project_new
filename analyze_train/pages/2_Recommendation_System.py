@@ -22,7 +22,7 @@ st.divider()
 # =============================
 # Load data
 # =============================
-DEFAULT_PATH = Path(r"C:\Users\USER\OneDrive\เดสก์ท็อป\MS STAT\IS_Project\matrial\car_master_data_predicted.xlsx")  # change if needed
+DEFAULT_PATH = Path(".\car_master_data_predicted.xlsx")  # change if needed
 
 @st.cache_data
 def load_excel(file_obj_or_path):
